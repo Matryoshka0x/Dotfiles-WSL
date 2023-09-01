@@ -40,9 +40,10 @@ fish_add_path $HOME/.tmux/plugins/t-smart-tmux-session-manager/bin/
 fish_add_path $HOME/.config/tmux/plugins/t-smart-tmux-session-manager/bin
 fish_add_path $HOME/.config/bin # my custom scripts
 
-function fish_user_key_bindings
-    bind \c] fzf_ghq # Ctrl-]
-    bind \cr fzf_history # Ctrl-r
-    bind \cj fzf_z # Ctrl-j
-    bind \co fzf_file # Ctrl-f
-end
+# function fish_user_key_bindings
+#     bind \c] fzf_ghq # Ctrl-]
+#     bind \cr fzf_history # Ctrl-r
+#     bind \cj fzf_z # Ctrl-j
+#     bind \co fzf_file # Ctrl-f
+# end
+#
