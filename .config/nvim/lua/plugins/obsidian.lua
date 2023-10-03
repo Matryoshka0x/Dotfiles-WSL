@@ -10,7 +10,7 @@ return {
   opts = {
     dir = "/mnt/d/Notes/X",
 
-    notes_subdir = "New Notes",
+    notes_subdir = "NeedToMove",
 
     daily_notes = {
       folder = "School",
@@ -20,7 +20,7 @@ return {
     completion = {
       nvim_cmp = true,
       min_chars = 2,
-      new_notes_location = "current_dir",
+      new_notes_location = "notes_subdir",
     },
 
     -- Optional, alternatively you can customize the frontmatter data.
